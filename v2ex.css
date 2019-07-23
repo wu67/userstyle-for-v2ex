@@ -1,0 +1,21 @@
+@-moz-document domain("v2ex.com") {
+    #Tabs a {
+        margin-right: 0;
+    }
+    #Tabs a.tab_current {
+        margin: 0 5px;
+    }
+    #SecondaryTabs {
+        margin-bottom: 10px;
+    }
+    #Rightbar > div:nth-child(2) > div:nth-child(1) > table:nth-child(1) > tbody > tr > td:nth-child(1) > a > img {
+        border: 2px solid #eee;
+        border-radius: 50%;
+    }
+    #Wrapper .content {
+        display: flex;
+    }
+    #Main {
+        margin: 0;
+    }
+}
